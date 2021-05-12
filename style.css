@@ -1,0 +1,57 @@
+.body{
+    background-color: rgb(61, 57, 57);
+}
+.mainContainer{
+    max-width:400px;
+}
+.heading{
+    color: rgb(250, 203, 194);
+    text-align: center;
+}
+.rows{
+    display:flex;
+    margin:1px; 
+    vertical-align: middle; 
+}
+.cell{
+    border: 1px outset black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin:1px;
+    font-size:20px;
+    font-weight: bold;
+    color: rgb(149, 153, 160);
+    background-color: rgb(109, 118, 126);
+}
+
+.resetGame{
+    background-color: #4CAF50;
+    color: white;    
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    padding: 16px 20px;  
+    width: 50%;  
+    opacity: 0.9;  
+}
+.button{
+    text-align: center;
+}
+.loose{
+    font: bold;
+    color: white;
+    width: auto;
+    size: 20px;
+    background-color: red;
+    margin:2px;
+}
+
+.won{
+    font: bold;
+    color: white;
+    width: auto;
+    size: 20px;
+    background-color: green;
+    margin:2px;
+}
